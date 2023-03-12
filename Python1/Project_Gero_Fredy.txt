@@ -1,0 +1,85 @@
+import array
+import string
+import os
+
+#arrays for users
+USERS = [
+    {"nombre": "Jose Jeronimo", 
+     "email": "admin@bank.com", 
+     "password": "soyeladmin", 
+     "tipo": "ADMIN", 
+     "fecha": "01/01/2020"
+    }
+]
+
+CUENTAS = []
+
+
+# Funciones para cada opcion del menu
+def agregar_cuenta():
+    print("nigga")
+def depositar_en_cuenta():
+    print("nigga")
+def retirar_de_cuenta():
+    print("nigga")
+def registrar_intereses():
+    print("nigga")
+def transferir_a_terceros():
+    print("nigga")
+def desactivar_cuentas():
+    print("nigga")
+def cancelar_cuentas():
+    print("nigga")
+def crear_usuarios():
+    print("nigga")
+def reportes():
+    print("nigga")
+
+def menu():
+    print("Bienvenido al Sistema Bancario Unitec (Estructurada)")
+    print("1- Agregar Cuenta")
+    print("2- Depositar En Cuenta")
+    print("3- Retirar De Cuenta")
+    print("4- Registrar Intereses")
+    print("5- Tranferir A Terceros")
+    print("6- Desactivar Cuentas")
+    print("7- Cancelar Cuentas ")
+    print("8- Crear Usuarios ")
+    print("9- Reportes ")
+    print("10- Cerrar Sesion ")
+    print("11- SALIR")
+    op = int(input("Elegir Opcion: "))
+    
+    if op == 1:
+        agregar_cuenta()
+    elif op == 2:
+        depositar_en_cuenta()
+    elif op == 3:
+        retirar_de_cuenta()
+    elif op == 4:
+        registrar_intereses()
+    elif op == 5:
+        transferir_a_terceros()
+    elif op == 6:
+        desactivar_cuentas()
+    elif op == 7:
+        cancelar_cuentas()
+    elif op == 8:
+        crear_usuarios()
+    elif op == 9:
+        return 1
+    elif op == 10:
+        return 0
+    elif op == 11:
+    else:
+        print("ERROR: OPCION INVALIDA")
+    menu()
+    
+runnig True
+while running:
+    print("* SISTEMA BANCARIO *")
+    email = input("Ingresar Email: ")
+    password = input("Ingresar Password: ")
+    
+    for(q)
+    running = menu()
